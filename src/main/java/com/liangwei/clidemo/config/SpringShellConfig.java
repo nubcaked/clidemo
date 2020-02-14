@@ -1,6 +1,8 @@
 package com.liangwei.clidemo.config;
 
+import com.liangwei.clidemo.shell.InputReader;
 import com.liangwei.clidemo.shell.ShellHelper;
+import org.jline.reader.LineReader;
 import org.jline.terminal.Terminal;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

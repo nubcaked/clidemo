@@ -1,4 +1,5 @@
-package com.ag04.clidemo.shell;
+package com.liangwei.clidemo.shell;
+
 import org.jline.reader.LineReader;
 import org.springframework.util.StringUtils;
 
