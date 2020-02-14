@@ -14,4 +14,9 @@ public class SpringShellConfig {
         return new ShellHelper(terminal);
     }
 
+    @Bean
+    public InputReader inputReader(@Lazy LineReader lineReader) {
+        return new InputReader(lineReader);
+    }
+
 }

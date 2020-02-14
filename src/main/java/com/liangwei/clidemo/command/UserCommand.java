@@ -13,6 +13,9 @@ public class UserCommand {
     ShellHelper shellHelper;
 
     @Autowired
+    InputReader inputReader;
+
+    @Autowired
     UserService userService;
 
     @ShellMethod("Create new user with supplied username")
